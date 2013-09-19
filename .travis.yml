@@ -3,3 +3,6 @@ language: groovy
 branches:
   only:
     - master
+
+script: ./grailsw refresh-dependencies
+  && ./grailsw "test-app unit:"
