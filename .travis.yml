@@ -4,3 +4,4 @@ branches:
   only:
     - master
 script: ./grailsw war
+script: ./grails war
