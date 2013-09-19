@@ -3,5 +3,4 @@ language: groovy
 branches:
   only:
     - master
-script: ./grailsw war
 script: ./grails war
