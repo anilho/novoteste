@@ -5,9 +5,9 @@ branches:
     - master
 
 before_install:
-sudo add-apt-repository ppa:groovy-dev/grails
-sudo apt-get update
-sudo apt-get install grails-ppa
-sudo apt-get install grails 2.0.x
+ - sudo add-apt-repository ppa:groovy-dev/grails
+ - sudo apt-get update
+ - sudo apt-get install grails-ppa
+ - sudo apt-get install grails 2.0.x
  
 script: grails war
