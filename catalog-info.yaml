@@ -9,4 +9,4 @@ metadata:
 spec:
   type: website
   lifecycle: production
-  owner: tracking-team
+  owner: app-invoice/blue-team
